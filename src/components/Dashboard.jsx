@@ -178,6 +178,27 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+      {/* ── Footer ─────────────────────────────────────────── */}
+      <footer className="border-t border-white/[0.06] pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
+        <span>
+          Built with{' '}
+          <span className="text-white/30">✦</span>{' '}
+          <span className="text-gray-400 font-medium">Google Antigravity</span>
+        </span>
+        <span>
+          by{' '}
+          <a
+            href="https://www.linkedin.com/in/oomkar-sonawane/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 transition-colors font-medium"
+          >
+            Omkar Sonawane
+          </a>
+          <span className="text-gray-600 mx-1.5">·</span>
+          Platform Engineering Leader
+        </span>
+      </footer>
     </div>
   );
 };
